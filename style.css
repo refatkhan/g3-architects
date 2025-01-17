@@ -119,8 +119,9 @@ header{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.feature-details-image  p{
-    background-color: #FF900E;
+#experience-badge{
+    margin-top: -92px;
+    margin-left: -70px;
 }
 .years{
 font-size: 4rem;
@@ -128,12 +129,9 @@ font-weight: bold;
 line-height: 70px;
 /* color: #FFFFFF; */
 }
-.experience p{
+.normal{
     font-size: 1.6rem;
     font-weight: 500;
-  
-
-   
 }
 
 /* responsive */
