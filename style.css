@@ -39,7 +39,7 @@ h3{
     border: none;
 }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 /* navbar */
 header{
@@ -171,6 +171,37 @@ line-height: 70px;
     font-weight: 600;
     color: #727272;
 }
+
+
+/* sponsor-detaills */
+.sponsor{
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+.sponsor-content{
+    max-width: 542px;
+    margin: auto;
+}
+.sponsor-content p{
+    margin: 24px 0;
+}
+.sponsor-detaills{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 155px;
+}
+.sponsor-detaills img{
+    filter: grayscale(100%);
+}
+.footer-container{
+    background-color: #FFF4E7;
+}
+.footer-container p{
+    padding: 39px 0;
+    font-size: 1.25rem;
+    color: #424242;
+}
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-title,
@@ -189,11 +220,12 @@ line-height: 70px;
     .feature-details{
         gap: 50px;
     }
-    .rewards{
+    .rewards, .sponsor-detaills{
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 50px;
     }
+   
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-title{
@@ -215,5 +247,8 @@ line-height: 70px;
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
         
+    }
+    .sponsor-detaills{
+        gap: 75px;
     }
 }
